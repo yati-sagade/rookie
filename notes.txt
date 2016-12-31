@@ -1,0 +1,9 @@
+Board representation
+--------------------
+Rookie uses bitboards for board representation. Each piece (defined by the piece
+type and its color gets a bitboard, as do empty squares on the board.
+
+The `Square` type encodes a square on the board, and maps to a (row, column).
+The top left square from the white player's perspective (the square with the
+black queenside rook, A8) is (0, 0) and the bottom right square (the white kingside
+rook square, H1) is (7, 7)
